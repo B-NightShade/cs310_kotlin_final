@@ -1,0 +1,17 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/weste/Desktop/cs310_kotlin/cs310_kotlin_final/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/weste/Desktop/cs310_kotlin/cs310_kotlin_final/app/src/main/res/layout/create_workout_layout.xml" value="0.10054347826086957" />
+        <entry key="..\:/Users/weste/Desktop/cs310_kotlin/cs310_kotlin_final/app/src/main/res/menu/mainactivity_menu.xml" value="0.225" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

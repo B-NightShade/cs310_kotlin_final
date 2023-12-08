@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calandarViewAdd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="add a workout"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="name"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextWorkoutName"
+            android:layout_width="wrap_content"
+            android:layout_height="121dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter a workout"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewrepsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reps"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextNumberReps"
+            android:layout_width="wrap_content"
+            android:layout_height="84dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="enter number reps"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewCompleted"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Choose if complete"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonComplete"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:text="complete" />
+
+        <RadioButton
+            android:id="@+id/radioButtonIncomplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="incomplete" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:text="Add Workout" />
+</LinearLayout>
