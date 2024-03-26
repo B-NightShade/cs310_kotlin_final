@@ -2,6 +2,7 @@
 final project for kotlin course
 
 ## details
+* [video link](https://youtu.be/HJxyGc8vcLc "screen recording")
 this application was written in Kotlin for an android device. 
 The included video was screen recorded on a personal android device.
 The goal of this app was to keep track of workouts while I was doing them.
